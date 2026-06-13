@@ -1,0 +1,70 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "aid": "https://apis.io/vocab/aid",
+    "postalytics": "https://www.postalytics.com/vocab/",
+    "directMail": "postalytics:directMail",
+    "postcard": "postalytics:postcard",
+    "letter": "postalytics:letter",
+    "selfMailer": "postalytics:selfMailer",
+    "campaign": "postalytics:campaign",
+    "flow": "postalytics:flow",
+    "drip": "postalytics:drip",
+    "contactList": "postalytics:contactList",
+    "suppression": "postalytics:suppression",
+    "trackingEvent": "postalytics:trackingEvent",
+    "mailDelivery": "postalytics:mailDelivery",
+    "printTemplate": "postalytics:printTemplate",
+    "webhook": "postalytics:webhook",
+    "loginLink": "postalytics:loginLink",
+    "campaignStats": "postalytics:campaignStats",
+    "batchMailing": "postalytics:batchMailing",
+    "triggeredMailing": "postalytics:triggeredMailing",
+    "SoftwareApplication": "SoftwareApplication",
+    "WebAPI": "WebAPI",
+    "Organization": "Organization",
+    "provider": {
+      "@id": "provider",
+      "@type": "@id"
+    },
+    "documentation": {
+      "@id": "documentation",
+      "@type": "@id"
+    },
+    "baseURL": "postalytics:baseURL"
+  },
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.postalytics.com/",
+      "name": "Postalytics",
+      "url": "https://www.postalytics.com/",
+      "description": "Postalytics is a direct mail automation platform enabling programmatic creation and delivery of postcards and letters with real-time tracking and analytics.",
+      "sameAs": [
+        "https://twitter.com/postalytics",
+        "https://www.linkedin.com/company/postalytics"
+      ]
+    },
+    {
+      "@type": "WebAPI",
+      "@id": "https://api.postalytics.com/",
+      "name": "Postalytics API",
+      "description": "REST API for creating and sending personalized postcards and letters, managing contact lists, tracking delivery, and automating direct mail campaigns with webhook support.",
+      "documentation": "https://docs.postalytics.com/",
+      "provider": "https://www.postalytics.com/",
+      "baseURL": "https://api.postalytics.com",
+      "keywords": [
+        "direct mail",
+        "postcards",
+        "letters",
+        "mail automation",
+        "print",
+        "tracking",
+        "analytics",
+        "webhooks",
+        "campaigns",
+        "REST API"
+      ]
+    }
+  ]
+}
