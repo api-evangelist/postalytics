@@ -1,0 +1,90 @@
+name: Postalytics Plans and Pricing
+description: Pricing plans for Postalytics direct mail automation platform, covering subscription tiers and per-piece mail costs.
+url: https://www.postalytics.com/direct-mail-pricing/
+plans:
+  - name: Free
+    description: Entry-level plan with no monthly fee, pay-per-piece pricing only.
+    price: 0
+    currency: USD
+    billing: monthly
+    features:
+      - Direct Mail Editor and Proofer
+      - One user login
+      - Send samples
+      - No credit card required
+      - No mailing caps
+    per_piece_pricing:
+      standard_postcard_6x9: 1.02
+      standard_letter_8_5x11_duplex: 1.13
+      first_class_postcard: 1.05
+      first_class_letter_8_5x11_duplex: 1.42
+
+  - name: Marketer
+    description: Mid-tier subscription plan with discounted per-piece pricing and specialist onboarding.
+    price: 199
+    currency: USD
+    billing: monthly
+    features:
+      - Discounted per-piece pricing
+      - Additional marketing features
+      - Specialist onboarding assistance
+      - 3000+ integrations including HubSpot, Salesforce, ActiveCampaign, Zapier
+      - Personalization capabilities
+      - Tracking and analytics
+      - Direct Mail Editor
+      - Workflow automation (Flows)
+      - Mailing list access
+      - No mailing caps
+    per_piece_pricing:
+      standard_postcard_0_2499: 0.90
+      standard_postcard_10000_24999: 1.206
+      first_class_0_2499: 0.91
+      first_class_10000_24999: 1.51
+
+  - name: Pro
+    description: Advanced plan with lowest per-piece pricing, unlimited white-labeled client accounts, and multi-touch automation.
+    price: 399
+    currency: USD
+    billing: monthly
+    features:
+      - Lowest per-piece pricing
+      - Unlimited white-labeled client accounts
+      - Margin management
+      - Easy management tools
+      - Multi-touch automation (Flows)
+      - Unlimited user logins
+      - 3000+ integrations
+      - Webhook support
+      - Direct Mail API access
+      - SDKs available
+      - No mailing caps
+    per_piece_pricing:
+      standard_postcard_0_2499: 0.81
+      standard_letter_0_2499: 1.116
+      first_class_0_2499: 0.79
+      first_class_letter_0_2499: 1.41
+
+  - name: Agency
+    description: Agency-focused plan with multi-client management, white-labeling, and volume discounts.
+    price: 399
+    currency: USD
+    billing: monthly
+    features:
+      - Lowest per-piece pricing
+      - Unlimited white-labeled client accounts
+      - Margin management
+      - Multi-client campaign management tools
+      - Free templates
+      - No mailing caps
+      - 3000+ integrations
+      - Direct Mail API access
+
+notes:
+  - Volume discounts available across tiers 0-2499, 2500-4999, 5000-9999, 10000-24999 pieces
+  - Custom envelopes range $0.30-$1.00 depending on volume
+  - Extra letter pages cost $0.13-$0.30 each
+  - Annual plans available
+  - High volume pricing (25000+ pieces) available via sales contact
+  - Nonprofit programs available
+  - All pricing includes printing, postage, and paper
+  - Canada pricing available at https://www.postalytics.com/canada-direct-mail-automation-pricing/

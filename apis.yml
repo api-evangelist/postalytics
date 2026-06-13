@@ -1,0 +1,62 @@
+aid: postalytics
+name: Postalytics
+description: Postalytics is a direct mail automation platform with a REST API for creating and sending personalized postcards and letters with real-time mail tracking and analytics. The API enables programmatic campaign management for triggered drip campaigns and batch smart-send mailings, with supported SDKs in Python, Node.js, Rust, Java, Go, and C#.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/postalytics/refs/heads/main/apis.yml
+created: 2026-06-13
+modified: 2026-06-13
+specificationVersion: '0.19'
+tags:
+  - Direct Mail
+  - Postcards
+  - Letters
+  - Mail Automation
+  - Print
+  - Tracking
+  - Analytics
+apis:
+  - aid: postalytics:postalytics-api
+    name: Postalytics API
+    description: REST API for creating and sending personalized postcards and letters, managing contact lists, tracking delivery, and automating direct mail campaigns with webhook support.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://www.postalytics.com/tools/direct-mail-api/
+    baseURL: https://api.postalytics.com
+    tags:
+      - Direct Mail
+      - Postcards
+      - Letters
+      - REST API
+      - Webhooks
+      - Tracking
+    properties:
+      - type: Documentation
+        url: https://docs.postalytics.com/
+      - type: OpenAPI
+        url: https://docs.postalytics.com/
+common:
+  - type: Website
+    url: https://www.postalytics.com/
+  - type: Documentation
+    url: https://docs.postalytics.com/
+  - type: GitHubOrg
+    url: https://github.com/postalytics
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/postalytics
+  - type: Blog
+    url: https://www.postalytics.com/blog/
+  - type: Pricing
+    url: https://www.postalytics.com/direct-mail-pricing/
+  - type: StatusPage
+    url: https://status.postalytics.com/
+  - type: X
+    url: https://twitter.com/postalytics
+  - type: Plans
+    url: plans/postalytics-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/postalytics-rate-limits.yml
+  - type: FinOps
+    url: finops/postalytics-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

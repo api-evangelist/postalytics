@@ -1,0 +1,79 @@
+name: Postalytics FinOps
+description: Financial operations guidance for managing costs when using the Postalytics Direct Mail API, including cost optimization strategies for postcard and letter campaigns.
+url: https://www.postalytics.com/direct-mail-pricing/
+
+cost_model:
+  type: hybrid
+  description: Combination of monthly subscription fee plus per-piece charges for each mail piece sent. Higher subscription tiers unlock lower per-piece rates.
+  components:
+    - name: Monthly Subscription
+      description: Fixed monthly fee based on plan tier (Free, Marketer, Pro/Agency)
+      values:
+        free: 0
+        marketer: 199
+        pro_agency: 399
+    - name: Per-Piece Postage and Print
+      description: Variable cost per mail piece sent, including printing, postage, and paper
+      notes:
+        - Costs decrease at higher volume tiers
+        - Standard mail is cheaper than First Class
+        - Postcards are cheaper than letters
+    - name: Direct Mail Credits
+      description: Pre-purchased credits that can be bought in bulk for significant savings
+      notes:
+        - Significant savings achievable by pre-purchasing at high volume tiers
+        - Credits can be distributed across client accounts on Agency plans
+
+cost_optimization:
+  - strategy: Choose standard mail over First Class when delivery speed is not critical
+    savings: Approximately $0.11-$0.29 per piece savings on standard vs First Class
+  - strategy: Pre-purchase Direct Mail Credits at high volume tiers
+    savings: Volume discounts apply at 2500, 5000, and 10000 piece thresholds
+  - strategy: Upgrade subscription tier when sending volume justifies the fixed cost
+    notes: Marketer plan at $199/month saves ~$0.12-$0.22 per piece vs Free plan at moderate volumes
+  - strategy: Use Pro/Agency plan for multi-client environments
+    notes: Centralized margin management and credit distribution reduces overhead
+  - strategy: Use mock/dev environment for testing to avoid unnecessary production charges
+    notes: Test workflows in dev environment before triggering real print jobs
+  - strategy: Contact sales for volumes exceeding 25000 pieces per campaign
+    notes: Custom enterprise pricing and nonprofit discounts available
+
+billing:
+  currencies: [USD]
+  billing_cycles: [monthly, annual]
+  annual_discount: Available (contact sales for details)
+  payment_methods:
+    - Credit card
+  notes:
+    - No long-term contracts required
+    - Free accounts remain accessible indefinitely
+    - No mailing caps on any plan
+    - Canada pricing available separately
+
+volume_tiers:
+  - min_pieces: 0
+    max_pieces: 2499
+    description: Base tier pricing
+  - min_pieces: 2500
+    max_pieces: 4999
+    description: First volume discount tier
+  - min_pieces: 5000
+    max_pieces: 9999
+    description: Second volume discount tier
+  - min_pieces: 10000
+    max_pieces: 24999
+    description: Third volume discount tier
+  - min_pieces: 25000
+    max_pieces: null
+    description: Enterprise tier - contact sales for custom pricing
+
+add_on_costs:
+  - item: Custom envelopes
+    price_range: "$0.30 - $1.00 depending on volume"
+  - item: Extra letter pages
+    price_range: "$0.13 - $0.30 each"
+
+tracking_and_analytics:
+  included: true
+  description: Real-time tracking included in all plans - printing, processing, in-transit scans, delivery, QR and URL hits
+  notes: Webhook payloads include timestamps for all mail events at no additional cost

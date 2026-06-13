@@ -1,0 +1,38 @@
+name: Postalytics API Rate Limits
+description: Rate limiting information for the Postalytics Direct Mail REST API. Specific published rate limits are not publicly documented; contact Postalytics support for current thresholds.
+url: https://docs.postalytics.com/
+notes:
+  - Postalytics does not publish explicit API rate limits in public documentation as of June 2026
+  - The API uses REST over HTTP with API key authentication
+  - Mock and dev environments are available for testing before production use
+  - Contact Postalytics support for rate limit details on your plan
+
+authentication:
+  type: API Key
+  description: API keys are obtained through the Connect hub under user settings, or from Incoming Webhook Triggered Drip Campaign settings pages.
+  location: https://support.postalytics.com/support/solutions/articles/70000625187-where-can-i-find-my-authentication-api-key-
+  header: Authorization
+  notes:
+    - Free account registration available at https://app.postalytics.com/register/
+    - API key found in Connect hub under user name
+    - API key also available in Webhook Campaign Settings
+
+environments:
+  - name: Production
+    description: Live environment triggering real print jobs and mail delivery
+  - name: Development / Mock
+    description: Test environment for catching errors, validating workflows, and testing performance before production deployment
+
+sdks:
+  - language: Python
+    maintained: true
+  - language: Node.js
+    maintained: true
+  - language: Rust
+    maintained: true
+  - language: Java
+    maintained: true
+  - language: Go
+    maintained: true
+  - language: C#
+    maintained: true
