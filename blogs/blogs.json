@@ -1,7 +1,7 @@
 {
   "provider": "postalytics",
   "url": "https://www.postalytics.com/blog/",
-  "fetched": "2026-06-13",
+  "fetched": "2026-06-14T20:42:17Z",
   "posts": [
     {
       "title": "Direct Mail Best Practices for Internet Service Providers: A Practical Campaign Guide",
@@ -10,7 +10,7 @@
       "description": "Addresses why ISP campaigns underperform and presents solutions through consistent application of foundational tactics."
     },
     {
-      "title": "USPS Postage Rates Rise July 12 — Here's How to Lock In Today's Direct Mail Pricing",
+      "title": "USPS Postage Rates Rise July 12 \u2014 Here's How to Lock In Today's Direct Mail Pricing",
       "url": "https://www.postalytics.com/blog/usps-postage-increase-july-2026/",
       "date": "2026-06-02",
       "description": "Announces upcoming postage increases and explains how marketers can secure current rates before the adjustment takes effect."
@@ -51,5 +51,16 @@
       "date": "2026-03-12",
       "description": "Announces plugin integration enabling designers to produce production-ready mailers directly within their existing Figma workflow."
     }
-  ]
+  ],
+  "repo": "postalytics",
+  "feeds": [
+    {
+      "source": "https://www.linkedin.com/company/postalytics",
+      "feed_url": "https://www.linkedin.com/company/postalytics",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0
 }
