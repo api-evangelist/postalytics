@@ -2,7 +2,7 @@ aid: postalytics
 name: Postalytics
 description: Postalytics is a direct mail automation platform with a REST API for creating and sending personalized postcards and letters with real-time mail tracking and analytics. The API enables programmatic campaign management for triggered drip campaigns and batch smart-send mailings, with supported SDKs in Python, Node.js, Rust, Java, Go, and C#.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/postalytics/refs/heads/main/apis.yml
 created: 2026-06-13
 modified: 2026-06-13
@@ -19,7 +19,7 @@ apis:
   - aid: postalytics:postalytics-api
     name: Postalytics API
     description: REST API for creating and sending personalized postcards and letters, managing contact lists, tracking delivery, and automating direct mail campaigns with webhook support.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.postalytics.com/tools/direct-mail-api/
     baseURL: https://api.postalytics.com
     tags:
