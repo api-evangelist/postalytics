@@ -1,66 +1,18 @@
 {
-  "provider": "postalytics",
-  "url": "https://www.postalytics.com/blog/",
-  "fetched": "2026-06-14T20:42:17Z",
-  "posts": [
-    {
-      "title": "Direct Mail Best Practices for Internet Service Providers: A Practical Campaign Guide",
-      "url": "https://www.postalytics.com/blog/direct-mail-best-practices-for-internet-service-providers/",
-      "date": "2026-06-11",
-      "description": "Addresses why ISP campaigns underperform and presents solutions through consistent application of foundational tactics."
-    },
-    {
-      "title": "USPS Postage Rates Rise July 12 \u2014 Here's How to Lock In Today's Direct Mail Pricing",
-      "url": "https://www.postalytics.com/blog/usps-postage-increase-july-2026/",
-      "date": "2026-06-02",
-      "description": "Announces upcoming postage increases and explains how marketers can secure current rates before the adjustment takes effect."
-    },
-    {
-      "title": "Direct Mail ROI: 2025-2026 Benchmarks, Stats & How to Maximize Returns",
-      "url": "https://www.postalytics.com/blog/direct-mail-roi/",
-      "date": "2026-05-15",
-      "description": "Updates industry benchmarks with recent data, replacing older survey information with richer performance metrics."
-    },
-    {
-      "title": "Why Broadband Marketing Direct Mail Volume is Exploding at the Fastest Growing BSPs",
-      "url": "https://www.postalytics.com/blog/why-broadband-marketing-direct-mail-volume-is-exploding-at-the-fastest-growing-bsps/",
-      "date": "2026-05-14",
-      "description": "Examines how top broadband service providers are achieving subscriber acquisition through physical mailers alongside digital campaigns."
-    },
-    {
-      "title": "Automated Direct Mail in 2026: Always On, AI, and the Shift to Measurable Mail",
-      "url": "https://www.postalytics.com/blog/automated-direct-mail-wheres-it-going/",
-      "date": "2026-05-04",
-      "description": "Explores evolving automation capabilities, highlighting real-time triggers and measurement advancements in direct mail."
-    },
-    {
-      "title": "Direct Mail Testing - A Best Practices Guide for Modern Marketers",
-      "url": "https://www.postalytics.com/blog/direct-mail-testing-best-practices/",
-      "date": "2026-04-14",
-      "description": "Provides structured testing methodologies to improve response rates, cost efficiency, and audience targeting."
-    },
-    {
-      "title": "8 Direct Mail Automation Strategies That Deliver Results",
-      "url": "https://www.postalytics.com/blog/8-next-level-direct-mail-strategies-leveraging-automation-for-impact-with-postalytics/",
-      "date": "2026-03-23",
-      "description": "Details advanced automation approaches, citing generational engagement data across Baby Boomers through Gen Z demographics."
-    },
-    {
-      "title": "Figma Direct Mail Automation Is Here; Design Print-Ready Mailers Without Leaving Figma",
-      "url": "https://www.postalytics.com/blog/figma-direct-mail-automation/",
-      "date": "2026-03-12",
-      "description": "Announces plugin integration enabling designers to produce production-ready mailers directly within their existing Figma workflow."
-    }
-  ],
   "repo": "postalytics",
   "feeds": [
     {
-      "source": "https://www.linkedin.com/company/postalytics",
-      "feed_url": "https://www.linkedin.com/company/postalytics",
+      "source": "https://www.postalytics.com/blog/",
+      "feed_url": "https://www.postalytics.com/comments/feed/",
       "title": "",
       "saved": 0,
-      "method": "none"
+      "method": "discovered"
+    },
+    {
+      "source": "https://www.linkedin.com/company/postalytics",
+      "error": "HTTPError"
     }
   ],
+  "fetched": "2026-06-27T12:03:07Z",
   "post_count": 0
 }
