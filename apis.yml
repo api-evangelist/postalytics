@@ -39,6 +39,13 @@ apis:
       - Postcards
       - Letters
       - REST API
+      - Webhook
+      - Tracking
+    tags_raw:
+      - Direct Mail
+      - Postcards
+      - Letters
+      - REST API
       - Webhooks
       - Tracking
     properties:
