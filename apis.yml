@@ -2,6 +2,17 @@ aid: postalytics
 name: Postalytics
 description: Postalytics is a direct mail automation platform with a REST API for creating and sending personalized postcards and letters with real-time mail tracking and analytics. The API enables programmatic campaign management for triggered drip campaigns and batch smart-send mailings, with supported SDKs in Python, Node.js, Rust, Java, Go, and C#.
 type: Index
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown
