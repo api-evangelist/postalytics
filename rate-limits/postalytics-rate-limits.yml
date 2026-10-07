@@ -1,3 +1,7 @@
+# Provenance stamped 2026-10-07 (roadmap#943): written by an API Evangelist sweep (undated — the file carries no date and git cannot supply one), not
+# harvested from the provider. `method: generated` so the economics campaign may replace it with a
+# dated, verbatim transcription; every figure below is unverified until it does.
+method: generated
 name: Postalytics API Rate Limits
 description: Rate limiting information for the Postalytics Direct Mail REST API. Specific published rate limits are not publicly documented; contact Postalytics support for current thresholds.
 url: https://docs.postalytics.com/
