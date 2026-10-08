@@ -92,3 +92,35 @@ notes:
   - Nonprofit programs available
   - All pricing includes printing, postage, and paper
   - Canada pricing available at https://www.postalytics.com/canada-direct-mail-automation-pricing/
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - free
+  - subscription
+  units: []
+  plans:
+  - name: Free
+    access: other
+    model: free
+    model_how: derived
+    units: []
+    periods: []
+  - name: Marketer
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: Pro
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: Agency
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
